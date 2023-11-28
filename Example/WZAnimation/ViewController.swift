@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.wz.basicAnimation(type: .viewAlpha(from: 0, to: 1))
+//        self.view.wz.basicAnimation(type: .viewAlpha(from: 0, to: 1))
     }
 
     override func didReceiveMemoryWarning() {

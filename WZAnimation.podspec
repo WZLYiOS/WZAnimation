@@ -36,7 +36,6 @@ TODO: Add long description of the pod here.
   s.source_files = 'WZAnimation/Classes/**/*'
   
   s.dependency 'pop', '~> 1.0.12'
-  s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
   
   # s.resource_bundles = {
   #   'WZAnimation' => ['WZAnimation/Assets/*.png']

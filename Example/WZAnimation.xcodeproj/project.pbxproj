@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D4C84FB0032E81D35E8CFF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0D4C84FB0032E81D35E8CFF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24C5D6831D9CCCFB8465CB81 /* Pods-WZAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZAnimation_Example.release.xcconfig"; path = "Target Support Files/Pods-WZAnimation_Example/Pods-WZAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WZAnimation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZAnimation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		64EC68B5C97F1E7AB727DAE6 /* Pods-WZAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZAnimation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WZAnimation_Tests/Pods-WZAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F8716516F0A1E0D57501CA9 /* Pods_WZAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D33125A550123CF14FDED9C /* Pods-WZAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZAnimation_Tests.release.xcconfig"; path = "Target Support Files/Pods-WZAnimation_Tests/Pods-WZAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A298BC324D2C29BF23ACDF39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A583D283DE37E7C0B05D7362 /* WZAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WZAnimation.podspec; path = ../WZAnimation.podspec; sourceTree = "<group>"; };
+		A298BC324D2C29BF23ACDF39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A583D283DE37E7C0B05D7362 /* WZAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WZAnimation.podspec; path = ../WZAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5BA59DC8066A62B7A19F911 /* Pods-WZAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZAnimation_Example.debug.xcconfig"; path = "Target Support Files/Pods-WZAnimation_Example/Pods-WZAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F2FA5872D51C3C07B3E682 /* Pods_WZAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				64EC68B5C97F1E7AB727DAE6 /* Pods-WZAnimation_Tests.debug.xcconfig */,
 				7D33125A550123CF14FDED9C /* Pods-WZAnimation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,11 +291,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WZAnimation_Example/Pods-WZAnimation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WZAnimation/WZAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

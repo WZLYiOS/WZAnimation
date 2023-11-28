@@ -21,16 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/qiuqixiang/WZAnimation'
+  s.homepage         = 'https://github.com/WZLYiOS/WZAnimation.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qiuqixiang' => '995386924@qq.com' }
-  s.source           = { :git => 'https://github.com/qiuqixiang/WZAnimation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WZLYiOS/WZAnimation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.static_framework = true
+  s.swift_versions   = '5.0'
+  s.requires_arc = true
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'WZAnimation/Classes/**/*'
+  
+  s.dependency 'pop', '~> 1.0.12'
+  s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
   
   # s.resource_bundles = {
   #   'WZAnimation' => ['WZAnimation/Assets/*.png']
@@ -38,5 +44,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

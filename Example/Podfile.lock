@@ -1,7 +1,9 @@
 PODS:
   - pop (1.0.12)
-  - WZAnimation (0.1.2):
+  - WZAnimation (1.0.0):
     - pop (~> 1.0.12)
+    - WZNamespaceWrappable (>= 2.1.3)
+  - WZNamespaceWrappable (2.1.3)
 
 DEPENDENCIES:
   - WZAnimation (from `../`)
@@ -9,6 +11,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - pop
+    - WZNamespaceWrappable
 
 EXTERNAL SOURCES:
   WZAnimation:
@@ -16,7 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
-  WZAnimation: 4dbc98279aa05b729b2e6b421a77edca299624e3
+  WZAnimation: f70fcf43a90c9e712ec6659fcc1e62a883d3ffb8
+  WZNamespaceWrappable: 73359e8ff0882ef5ee9724d067b7c9790c00f999
 
 PODFILE CHECKSUM: 9fa67ae60f955ad72cdd07dab4d7c06560e1ae7e
 

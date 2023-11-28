@@ -8,10 +8,10 @@
 
 import Foundation
 import pop
-
+import WZNamespaceWrappable
 
 /// MARK -  extension  动画
-public extension WZAnimationWrappable where Base: UIView {
+public extension WZNamespaceWrappable where Base: UIView {
     
     enum AnimationType {
         case viewFrame(from: CGRect, to: CGRect)

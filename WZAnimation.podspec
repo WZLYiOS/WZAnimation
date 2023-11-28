@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZAnimation'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of WZAnimation.'
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'WZAnimation/Classes/**/*'
   
   s.dependency 'pop', '~> 1.0.12'
+  s.dependency 'WZNamespaceWrappable', '>= 2.1.3'
   
   # s.resource_bundles = {
   #   'WZAnimation' => ['WZAnimation/Assets/*.png']

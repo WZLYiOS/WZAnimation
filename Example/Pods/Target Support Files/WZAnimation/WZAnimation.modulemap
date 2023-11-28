@@ -1,0 +1,6 @@
+framework module WZAnimation {
+  umbrella header "WZAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

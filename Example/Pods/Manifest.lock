@@ -1,0 +1,16 @@
+PODS:
+  - WZAnimation (0.1.0)
+
+DEPENDENCIES:
+  - WZAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  WZAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZAnimation: b7bb1dd42e77b066dfaf92e32e2af19d2c77dabb
+
+PODFILE CHECKSUM: 625eea96f958b5b583435189fff2d60e966f3f29
+
+COCOAPODS: 1.12.1

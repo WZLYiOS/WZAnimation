@@ -1,6 +1,6 @@
 PODS:
   - pop (1.0.12)
-  - WZAnimation (0.1.0):
+  - WZAnimation (0.1.1):
     - pop (~> 1.0.12)
     - WZNamespaceWrappable (>= 2.1.3)
   - WZNamespaceWrappable (2.1.3)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
-  WZAnimation: 5f9f92de20377003bf20d2b964f66c63c1b99ce8
+  WZAnimation: fc31ebdb51704c77823a0405d2bd5196b3f0ee5e
   WZNamespaceWrappable: 73359e8ff0882ef5ee9724d067b7c9790c00f999
 
-PODFILE CHECKSUM: 782a779e09931136b086beff660f2b2d194f1e58
+PODFILE CHECKSUM: 48e60473b5ef053110bf1ce0958e2a7535691595
 
 COCOAPODS: 1.12.1

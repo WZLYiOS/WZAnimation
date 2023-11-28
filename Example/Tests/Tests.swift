@@ -1,5 +1,4 @@
 import XCTest
-import WZAnimation
 
 class Tests: XCTestCase {
     
